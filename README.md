@@ -2,3 +2,7 @@
 A collection of programming inteview questions
 
 ## Click on the commit to see the logic applied behind the code
+
+## Nagarro Coding Questions
+  + [Check Palindrome]
+  + [Swap Words]
