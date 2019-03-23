@@ -29,7 +29,7 @@ def checkPalindrome(string):
         if odd_count == 2:
             break
     
-    #Returning the list based on the number of odd characters
+    #Returning the result based on the number of odd characters
     if odd_count == 2:
         return False
     else:
