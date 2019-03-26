@@ -2,7 +2,7 @@
 # Test Case 1 : hello 
 # Output : false (we can't arrange the letters of the above string in any way to form a palindrome)
 # Test Case 2 : tests
-# Output : true (tests can be converted to 'ttess' or 'stets' and so on)
+# Output : true (tests can be converted to 'tsest' or 'stets' and so on)
 
 ## Note : Always create your program with less time and space complexities
 
