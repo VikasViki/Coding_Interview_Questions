@@ -10,3 +10,6 @@ A collection of programming inteview questions
 
 ## QA Infotech Coding Questions
   + [Reverse Words of the string](https://github.com/VikasViki/Coding_Interview_Questions/blob/master/Reverse%20Words%20of%20the%20string.py)
+
+## Mckinley & Rice
+  + [Day Of Given Date](https://github.com/VikasViki/Coding_Interview_Questions/blob/master/Day%20of%20given%20Date)
