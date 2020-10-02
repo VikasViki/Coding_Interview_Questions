@@ -1,4 +1,4 @@
-date = input('Enter the Date (DD Mon YYY): ')
+date = input('Enter the Date (DD MM YYYY): ')
 d,m,y = date.split()
 
 day = {0:'Sunday',1:'Monday',2:'Tuesday',3:'Wednesday',
