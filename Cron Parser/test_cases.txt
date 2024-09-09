@@ -1,0 +1,6 @@
+"* * * * * /usr/bin/find"
+"*/0-15 * * * * /usr/bin/find"
+"*/1,2-15 * * * * /usr/bin/find"
+"1,2-15 * * * * /usr/bin/find"
+"2-15 * * * * /usr/bin/find"
+"2 * * * * /usr/bin/find"
