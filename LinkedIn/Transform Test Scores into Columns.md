@@ -65,7 +65,7 @@ SELECT
 FROM Users u
 LEFT JOIN Tests t ON u.user_id = t.user_id
 GROUP BY u.user_id;
-
+```
 
 # **Follow-Up Questions:**
 
