@@ -64,3 +64,36 @@ B = [2, 3, 1, 4]
 - Can this approach be optimized further to reduce space complexity?
 
 
+## Python Solution
+```python
+import copy
+
+def get_prefix_sum_array(arr, arr_len):
+    arr = copy.deepcopy(arr)
+    for index in range(1, arr_len):
+        arr[index] += arr[index-1]
+    return arr
+
+def get_suffix_sum_array(arr, arr_len):
+    arr = copy.deepcopy(arr)
+    for index in range(arr_len-2, -1, -1):
+        arr[index] += arr[index+1]
+    return arr
+
+def solution(A, B):
+    # Implement your solution here
+    arr_len = len(A)
+
+    A_prefix = get_prefix_sum_array(A, arr_len)
+    B_prefix = get_prefix_sum_array(B, arr_len)
+
+    A_suffix = get_suffix_sum_array(A, arr_len)
+    B_suffix = get_suffix_sum_array(B, arr_len)
+
+    fair_indexex_count = 0
+    for K in range(1, arr_len):
+        if (A_prefix[K-1] == A_suffix[K] == B_prefix[K-1] == B_suffix[K]):
+            fair_indexex_count += 1
+    
+    return fair_indexex_count
+```
